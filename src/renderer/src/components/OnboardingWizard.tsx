@@ -729,9 +729,9 @@ export function OnboardingWizard({ onComplete, preview }: OnboardingWizardProps)
                   <div>
                     <div style={{
                       fontFamily: 'var(--cth-font-display)',
-                      fontSize: 12, lineHeight: '18px'
+                      fontSize: 14, lineHeight: '20px'
                     }}>{t('onboarding.welcome.headline')}</div>
-                    <div style={{ fontSize: 12, color: 'var(--cth-ink-700)', lineHeight: '18px' }}>
+                    <div style={{ fontSize: 14, color: 'var(--cth-ink-700)', lineHeight: '20px' }}>
                       {t('onboarding.welcome.desc')}
                     </div>
                   </div>
@@ -749,7 +749,7 @@ export function OnboardingWizard({ onComplete, preview }: OnboardingWizardProps)
                       <span style={{ width: 26, height: 26, flexShrink: 0, display: 'grid', placeItems: 'center', borderRadius: 'var(--cth-r-md)', background: 'var(--cth-neutral-soft)', color: 'var(--cth-ink-2)' }}>
                         <Icon name={f.icon} />
                       </span>
-                      <span style={{ flex: 1, minWidth: 0, fontSize: 13, fontWeight: 600, color: 'var(--cth-ink)' }}>{t(f.labelKey, { godName })}</span>
+                      <span style={{ flex: 1, minWidth: 0, fontSize: 14, fontWeight: 600, color: 'var(--cth-ink)' }}>{t(f.labelKey, { godName })}</span>
                       <InfoTip text={t(f.descKey)} align="end" />
                     </div>
                   ))}
@@ -1102,7 +1102,7 @@ export function OnboardingWizard({ onComplete, preview }: OnboardingWizardProps)
                     <div style={{ fontFamily: 'var(--cth-font-ui)', fontSize: 12, fontWeight: 600, lineHeight: '16px' }}>
                       {t('onboarding.permissions.autoLabel')}
                     </div>
-                    <div style={{ fontSize: 13, color: 'var(--cth-ink-700)' }}>
+                    <div style={{ fontSize: 14, color: 'var(--cth-ink-700)', lineHeight: '20px' }}>
                       {autoMode ? t('onboarding.permissions.autoOn') : t('onboarding.permissions.autoOff')}
                     </div>
                   </div>
